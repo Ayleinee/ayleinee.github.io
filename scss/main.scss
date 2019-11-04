@@ -1,0 +1,255 @@
+$font-color-dark:#4b4242;
+$button-font-size: 13px;
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+#app{
+  position: absolute;
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: block;
+  // width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  flex: auto;
+}
+
+.content{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+//side bar link
+#side-bar{
+  display: flex;
+  flex-direction: column;
+  // background-color: #ebd9d9;
+  // border: 1px solid #ebd9d9;
+  width: 31%;
+  max-width: 280px;
+  min-width: 235px;
+  height: 100%;
+  padding-top: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+
+
+  font: $button-font-size 'Arial';
+  font-size: $button-font-size;
+
+  .icon{
+    // background-color: yellow;
+    display: flex;
+    // width: 100%;
+    height: 90px;
+    margin-left: 40px;
+    // justify-content: center;
+    align-items: center;
+
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .side-buttons{
+    padding: 12px 40px 10px 40px;
+    text-align: left;
+    height: 40px;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: $font-color-dark;
+  }
+
+  .side-buttons:hover{
+    background: aqua;
+    color: white;
+  }
+
+  .portfolio-link-div{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+  }
+
+  #social-media-div{
+      display: flex;
+      flex-direction: row;
+      // justify-content: center;
+      margin-top: 20px;
+      margin-left: 40px;
+
+      .link{
+        width: 20px;
+        height: 20px;
+        border: none;
+        margin-right: 10px;
+
+        img{
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+  }
+}
+
+// gallery page
+.gallery-header{
+  display: block;
+  text-align: left;
+  width: 100%;
+  min-height: 80px;
+  border-bottom: 1px solid $font-color-dark;
+  padding: 30px 0 0 20px;
+  box-sizing: border-box;
+
+  span{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+  }
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 20px 0 20px 0;
+  justify-content:center;
+
+  .gallery-image-div{
+    display: block;
+    width: 30%;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  img{
+    display: block;
+    width: 100%;
+    // min-width: 494px;
+  }
+}
+
+// about page
+#about-div{
+  display: flex;
+  // justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+
+  img{
+    align-self: center;
+    display: block;
+    width: 550px;
+    padding-left: 20px;
+  }
+
+  .about-text-div{
+    margin-left: 30px;
+    text-align: left;
+    align-self: center;
+  }
+}
+
+
+
+/* Small screens */
+@media all and (max-width: 768px) {
+  #app {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+
+  #side-bar{
+    flex-direction: column;
+    width:100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 120px;
+    justify-content: flex-start;
+    padding: 0;
+    border-bottom: 1px solid $font-color-dark;
+
+    .side-buttons:hover{
+      background: none;
+      color: $font-color-dark;
+      text-decoration: underline;
+    }
+
+    .icon{
+      width: 100%;
+      height: 60px;
+      padding: 0 0 0 14px;
+      margin: 0;
+      justify-content:flex-start ;
+      text-decoration: none;
+    }
+
+    .portfolio-link-div{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 10px;
+      // justify-content: space-between;
+      padding: 14px;
+      box-sizing: border-box;
+    }
+
+    .side-buttons{
+      padding: 0 20px 0 0;
+      margin: 0;
+      height: 20px;
+    }
+
+    #social-media-div{
+      position: absolute;
+      right: 20px;
+      margin-top: 10px;
+      // display: none;
+    }
+
+  }
+  .gallery{
+    padding: 20px 0 20px 0;
+  }
+  .gallery-header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    span{
+      width: 100%;
+      font-weight: bold;
+    }
+  }
+  .gallery-image-div{
+    display: block;
+    min-width: 90%;
+  }
+
+  #about-div{
+      flex-direction: column;
+
+      img{
+        padding: 0;
+      }
+  }
+}
