@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 480 685" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-3044.8,-1621.73)">
+        <g id="bottom">
+        </g>
+        <g id="window">
+        </g>
+        <g>
+            <g transform="matrix(0.939759,0,0,1,56.9213,929.526)">
+                <rect x="3179.41" y="692.205" width="510.246" height="684.427" style="fill:url(#_Linear1);"/>
+            </g>
+            <g transform="matrix(0.941486,0,0,1.02028,189.763,-29.1919)">
+                <rect x="3108.55" y="1698.35" width="358.607" height="517.418" style="fill:url(#_Linear2);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-13.1148,66.8853)">
+                <text x="3214.33px" y="1807.11px" style="font-family:'Margarine-Regular', 'Margarine';font-size:100px;fill:white;">Not</text>
+                <text x="3224.73px" y="1907.11px" style="font-family:'Margarine-Regular', 'Margarine';font-size:100px;fill:white;">Y<tspan x="3272.72px 3323.11px " y="1907.11px 1907.11px ">et</tspan></text>
+                <g transform="matrix(100,0,0,100,3411.52,2007.11)">
+                </g>
+                <text x="3181.83px" y="2007.11px" style="font-family:'Margarine-Regular', 'Margarine';font-size:100px;fill:white;">Open</text>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(4.58432e-14,320.724,-748.676,1.96387e-14,3738.61,1064.93)"><stop offset="0" style="stop-color:rgb(110,132,158);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(125,105,151);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.22191e-14,242.463,-526.178,1.48466e-14,3501.56,1980.13)"><stop offset="0" style="stop-color:rgb(94,62,67);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(55,18,25);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
